@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .new-user{
+    display: flex;
+  justify-content: flex-end;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+section .imgbx{
+    position: relative;
+    width:55%;
+    height: 100%;
+}
+section .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .contentbx{
+    
+    width: 45%;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: lightblue;
+        background-image: linear-gradient(to right, #BDDFFF,white);
+
+    padding-left: 30px;
+}
+.formbx img{
+    width: 100px;
+    align-items: center;
+    display: flex;
+	justify-content: flex-end;
+	align-items: center;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    
+}
+section .login-content h1{
+    font-weight: lighter;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-bottom: 2px; 
+    border-bottom: 3px solid red;
+    margin-right: 375px;
+
+}
+section .login-content p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: x-large;
+    padding-bottom: 15px;
+    font-stretch: wider;
+    font-weight: lighter;
+}
+/* section .contentbx .formbx .inputbx{
+  margin-bottom: 20px;
+} */
+/* section .contentbx .formbx .inputbx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+} */
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Grotesk', sans-serif;
+}
+input {
+   border: 0px;
+   background: transparent;
+   border-bottom: 4px solid rgb(135, 131, 131);
+}
+.inputbx{
+    display: flex;
+    flex-direction: column;
+}
+.inputbx p{
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+input[type="text"] {
+    width: 80%;  
+    height: 40px;
+    }
+input[type="password"] {
+    margin-top: 30px;
+        width: 80%; 
+        height: 40px; 
+        }
+::placeholder{
+    color: black;
+}
+         .forgot-password{
+            display: flex;
+            justify-content: flex-end;
+            font-family: 'Space Grotesk', sans-serif;
+
+        }
+        .forgot-password a{
+            color: rgb(96, 95, 95);
+          }
+          
+input[type="submit"] {
+    /* border: 2px solid black;
+    text-align: center ;
+    border-radius: 30PX;
+    background-color: rgb(22, 126, 211);
+    color: aliceblue;
+    width: 150%;
+    height: 40px; */
+    display: block;
+	width: 60%;
+	height: 40px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-color: black;
+	background-size: 200%;
+	font-size: 1.0rem;
+	color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+	margin-left: 100px;
+    margin-top: 30px;
+	cursor: pointer;
+	transition: .5s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(0, 145, 255)
+}
+
+ input[type="submit"]:active {
+    background-color: rgb(135, 235, 158);
+    box-shadow: 0 3px black;
+    transform: translateY(4px);
+  }
+ 
+
+
+.inputbx span{
+    font-family: 'Poppins', sans-serif;
+}
+
